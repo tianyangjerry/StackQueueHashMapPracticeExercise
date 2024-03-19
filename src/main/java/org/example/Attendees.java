@@ -1,13 +1,6 @@
 package org.example;
 
 public class Attendees {
-    /*
-    Add seatNo – stores the seat number for the
-    attendee as a String. It will be in the format of A#,
-    B   #, C#, where ‘#’ will be a number. For example, A1, B23, C31
-    §   Update the constructor, the getter and setter, and the toString()
-    methods of this class accordingly.
-     */
     private String attendeeName;
     private String attendeeEmail;
     private String attendeeGender;
