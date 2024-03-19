@@ -1,30 +1,5 @@
 package org.example;
 
-/*
-This class has no variable of its own. It simply helps you handle complementary passes with the
-help of a stack of ComplementaryPasses object. So, create a Stack of ComplementaryPasses
-object.
-§ handleComplementaryPasses() – This method gives the user the option to choose from the
-following operations: 1. Redeem complementary passes; 2. Display all the redeemed
-complementary passes; 3. Display the last redeemed complementary pass; 4. Undo any of the
-redeemed complementary pass; 5. QUIT
-§ Depending on the choice the user makes, the program should do the following:
-o 1: Ask the user how many passes needs to be redeemed. Then pass that value as a parameter
-to redeemComplementaryPasses() method. This method will first check if the current size of
-the stack is more than or qual to 10. If it is, then the operation should not happen, and the
-program should display “Invalid operation. All the passes have been redeemed” If the size is
-under 10, then the program should allow the user to add Pass ID, and then add the access
-level. Using these inputs, the program then pushes the details into the Stack.
-2: If the user chooses ‘2’, then simply display all the passes by displaying the Stack. This
-feature must be inside a separate method called displayComplementaryPasses().
-o 3. If the user chooses ‘3’, then the displayLastRedeemedComplementaryPass() method is
-called. The method displays only the top-most entry from the Stack.
-o 4. If the user chooses ‘4’, then the undoRedeemedComplementaryPass() method is called.
-This method first asks the Pass ID you want to undo (remove), then searches for that ID in the
-stack, and then removes it.
-
- */
-
 import java.util.Scanner;
 import java.util.Stack;
 
