@@ -4,20 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-/*
-Create a HandlePerformances class. This class uses the Performance class and creates a queue of its
-object called performances. This queue is implemented as a LinkedList.
-§ Create a handlePerformances () method. This method simply presents the user with the different
-options. 1. Add performances; 2. Display all the performances; 3. Start the performances; 4. QUIT.
-o 1. If the user chooses ‘1’, then ask the user how many performances must be added. Then use
-that input as a parameter and pass it to a method called addPerformances(). This method
-allows the user to enter the performance details like ID, name, and the lead name. Then it
-takes all of those values and adds it to the performances queue.
-2. If the user chooses ‘2’, then simply call the displayPerformances() method and display all
-the values from the queue.
-o 3. If the user chooses ’3’, then simply call the startPerformance() method and display only the
-first performance that is stored in the queue.
- */
 public class HandlePerformances {
     Queue<Performance> performances = new LinkedList<>();
 
