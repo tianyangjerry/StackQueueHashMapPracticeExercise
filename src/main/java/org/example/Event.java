@@ -3,25 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-/*
-Create a final capacity variable with value 200. Use this capacity to create a HashMap with String
-as the key type and Attendee object as the value type. Use 0.6 as the load factor. This HashMap
-will be called seatDetails. Also create a setter and getter for this HashMap. The setter will take the
-seat number and Attendee object as the parameter and then add this to the seatDetails
-HashMap. The getter will take seat number as the parameter and display the corresponding
-Attendee object details
-In the organizeEvent() method, when you ask the user for attendee details, now you also must ask
-for the seat number. This way, whenever an attendee details is displayed, removed, or modified,
-the seat number must also be displayed, removed or modified accordingly.
-§ When the user chooses to handle complementary passes, a method called
-handleComplementaryPasses () must be called. This method will be in a separate class called
-HandleComplementaryPasses().
-§ When the user chooses to handle performances, a method called handlePerformances() must be
-called. This method will be in a separate class called HandlePerformances().
-§ When the user chooses to get seat details, the program must first ask the user the seat number
-for which the details must be displayed. Using that seat number, the getter for the seatDetails
-HashMap is called, and then the Attendee object is displayed
- */
+
 
 public class Event {
     Performance performances = new Performance();
