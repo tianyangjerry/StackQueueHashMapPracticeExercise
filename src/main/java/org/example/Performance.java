@@ -1,13 +1,5 @@
 package org.example;
 
-/*
-Create a Performance class. This is just a model class.
-§ String performanceID – Stores the ID for the performance. This ID must be unique.
-§ String performanceName – Stores the name of the performance.
-§ String performanceLeadName – Stores the name of the lead of the performance group
-§ String
-§ Create the necessary constructor, getters and setters, and toString() method.
- */
 
 public class Performance {
     private String performanceID;
